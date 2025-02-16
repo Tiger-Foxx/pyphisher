@@ -1,12 +1,12 @@
 <h1 align="center">PyPhisher</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-2.1-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/KasRoudra/pyphisher?style=for-the-badge&color=orange">
-  <img src="https://img.shields.io/github/forks/KasRoudra/pyphisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/watchers/KasRoudra/pyphisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/issues/KasRoudra/pyphisher?color=red&style=for-the-badge">
-  <img src="https://img.shields.io/github/license/KasRoudra/pyphisher?style=for-the-badge&color=blue">
+  <img src="https://img.shields.io/badge/Version-2.1.8-green?style=for-the-badge">
+  <img src="https://img.shields.io/gitlab/stars/KasRoudra/PyPhisher?style=for-the-badge&color=orange">
+  <img src="https://img.shields.io/gitlab/forks/KasRoudra/PyPhisher?color=cyan&style=for-the-badge&color=purple">
+  <img src="https://img.shields.io/gitlab/watchers/KasRoudra/PyPhisher?color=cyan&style=for-the-badge&color=purple">
+  <img src="https://img.shields.io/gitlab/issues/KasRoudra/PyPhisher?color=red&style=for-the-badge">
+  <img src="https://img.shields.io/gitlab/license/KasRoudra/PyPhisher?style=for-the-badge&color=blue">
   <img src="https://hits.dwyl.com/KasRoudra/PyPhisher.svg" width="140" height="28">
 <br>
 <br>
@@ -23,7 +23,7 @@
 
 ### [*]Announcement
 
-This project is now a part of [MaxPhisher](https://github.com/KasRoudra/MaxPhisher). Further bug fixes and feature addition will be available in that
+This project is now a part of [MaxPhisher](https://gitlab.com/KasRoudra/MaxPhisher). Further bug fixes and feature addition will be available in that
 
 
 ### [+] Installation
@@ -31,36 +31,36 @@ This project is now a part of [MaxPhisher](https://github.com/KasRoudra/MaxPhish
 ##### Install dependencies (git, python, php ssh)
 
  - For Debian (Ubuntu, Kali-Linux, Parrot)
-    - ```sudo apt install git python3 php openssh-client -y```
+    - ```sudo apt install git python3 python3-pip php openssh-client -y```
  - For Arch (Manjaro)
-    - ```sudo pacman -S git python3 php openssh --noconfirm```
+    - ```sudo pacman -S git python3 python-pip php openssh --noconfirm```
  - For Redhat(Fedora)
     - ```sudo dnf install git python3 php openssh -y```
  - For Termux
-    - ```pkg install git python3 php openssh -y```
+    - ```pkg install git python3 python-pip php openssh -y```
 
 ##### Clone this repository
 
- - ```git clone https://github.com/KasRoudra/PyPhisher```
+ - ```git clone https://gitlab.com/KasRoudra/PyPhisher```
 
 ##### Enter the directory
  - ```cd PyPhisher```
 
 ##### Install all modules
- - ```pip3 install -r files/requirements.txt```
+ - ```pip3 install -r files/requirements.txt --break-system-packages```
 
 ##### Run the tool
  - ```python3 pyphisher.py```
 
 #### Or, directly run
 ```
-wget https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/pyphisher.py && python3 pyphisher.py
+wget https://gitlab.com/KasRoudra/PyPhisher/-/raw/main/pyphisher.py && python3 pyphisher.py
 
 ```
 
 ### Pip
  - `pip3 install pyphisher` [For Termux]
- - `sudo pip3 install pyphisher` [For Linux]
+ - `sudo pip3 install pyphisher  --break-system-packages` [For Linux]
  - `pyphisher`
 
 ### Docker
@@ -115,8 +115,8 @@ options:
  - Easy to use
  - Possible error diagnoser
  - 77 Website templates
- - Concurrent 3 tunneling (Cloudflared, Loclx and LocalHostRun)
- - Upto 6 links for phishing
+ - Concurrent 4 tunneling (Cloudflared, Loclx and LocalHostRun, Serveo)
+ - Upto 8 links for phishing
  - OTP Support
  - Argument support
  - Credentials mailing
@@ -128,8 +128,8 @@ options:
  - Get IP Address and many other details along with login credentials
 
 #### Relevant Tools by Me
- - [CamHacker](https://github.com/KasRoudra/CamHacker) for image phishing
- - [VidPhisher](https://github.com/KasRoudra/VidPhisher) for video phishing
+ - [CamHacker](https://gitlab.com/KasRoudra/CamHacker) for image phishing
+ - [VidPhisher](https://gitlab.com/KasRoudra/VidPhisher) for video phishing
 
 
 ### Requirements
@@ -137,6 +137,7 @@ options:
  - `Python(3)`
    - `requests`
    - `rich`
+   - `beautifulsoup4`
  - `PHP`
  - `SSH`
  - 900MB storage
@@ -162,7 +163,7 @@ If not found, php and python modoules will be installed on first run
 
 <h1 align="center">Example</h1>
 
-![PyPhisher](https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/files/pyphisher.gif)
+![PyPhisher](https://gitlab.com/KasRoudra/PyPhisher/-/raw/main/files/pyphisher.gif)
 
 ## Video Tutorial
 <a href="https://rebrand.ly/pyphishervideo">PyPhisher in Termux</a>
@@ -208,7 +209,7 @@ If not found, php and python modoules will be installed on first run
 ### This repository is open source to help others. So if you wish to copy, consider giving credit!
 
 ## Credits:
-Some base codes and templates are from [htr-tech](https://github.com/htr-tech/zphisher), otp templates are from [ignitech](https://guthub.com/ignitech/AdvPhishing) and url masking is inspired from [jaykali](https://github.com/jaykali/maskphish)
+Some base codes and templates are from [htr-tech](https://github.com/htr-tech/zphisher), otp templates are from [ignitech](https://github.com/ignitech/AdvPhishing) and url masking is inspired from [jaykali](https://github.com/jaykali/maskphish)
 
 
 ### [*] Support
@@ -218,6 +219,8 @@ Some base codes and templates are from [htr-tech](https://github.com/htr-tech/zp
 ## [~] Find Me on :
 
 - [![Github](https://img.shields.io/badge/Github-KasRoudra-purple?style=for-the-badge&logo=github)](https://github.com/KasRoudra)
+
+- [![Gitlab](https://img.shields.io/badge/Gitlab-KasRoudra-purple?style=for-the-badge&logo=gitlab)](https://gitlab.com/KasRoudra)
 
 - [![Gmail](https://img.shields.io/badge/Gmail-KasRoudra-green?style=for-the-badge&logo=gmail)](mailto:kasroudrakrd@gmail.com)
 
